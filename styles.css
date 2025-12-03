@@ -70,11 +70,22 @@ h1 {
     margin-bottom: 10px;
 }
 
-p {
+.logo-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.hero-description{
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 8px;
 }
+/*p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 8px;
+}*/
 
 .sign-up{
     height:40px;
@@ -104,4 +115,53 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.center-box{
+     background-color: #64b117;
+    margin: 0;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.center-box-title{
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.center-picture-box{
+    display: flex;
+    justify-content: center;
+   gap: 60px;
+   height: 400px;
+   width: 400px;
+   margin: 0;
+   padding: 0;
+}
+.center-picture-placeholder{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 20%;
+   
+}
+
+.center-picture-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.picture-item-description{
+    font-size: 8px;
+   
 }
