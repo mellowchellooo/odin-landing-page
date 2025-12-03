@@ -1,6 +1,8 @@
 body{
+    margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 
 .header{
     background-color: #1f2937;
@@ -13,6 +15,13 @@ body{
 .logo{
     height: 50px;
     width: 50px;
+}
+
+.logo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
 
 .link-list{
@@ -31,4 +40,68 @@ a{
 .header-list-item{
     list-style-type: none;
     
+}
+
+
+.hero-box{
+    height: 400px;
+    width: auto;
+    background-color: #1f2937;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+h1, p {
+    margin: 0;
+}
+    
+
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    
+    color: #f9faf8;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 8px;
+}
+
+.sign-up{
+    height:40px;
+    width: 100px;
+    margin: 0;
+    background-color: #1f2937;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.hero-content{
+    display: flex;
+    background-color: #1f2937;
+    width: 400px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.picture-placeholder{
+    background-color: #E5E7EB;
+    height: 200px;
+    width: 500px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
