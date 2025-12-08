@@ -94,6 +94,7 @@ h1 {
     background-color: #1f2937;
     border-radius: 10px;
     border: 2px solid black;
+    color: #E5E7EB;
 }
 
 .hero-content{
@@ -191,3 +192,56 @@ h1 {
     text-align: end;
    margin-right: 500px;
 }
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+
+}
+
+.sign-up-box{
+    background-color: #1f2937;
+    height: 100px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.cta-txt{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+h4{
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+    color: #E5E7EB;
+}
+
+.call-to-para{
+    color: #E5E7EB;
+    padding: 8px;
+    margin-top: -15px;
+}
+
+.button-box{
+    margin-right: 16px;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    font-weight: 500;
+}
+
