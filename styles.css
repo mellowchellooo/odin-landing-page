@@ -118,15 +118,15 @@ h1 {
 }
 
 .center-box{
-     background-color: #64b117;
+     background-color:;
     margin: 0;
-    padding: 20px;
-    height: 200px;
+    padding: 0px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     
 }
 
@@ -154,14 +154,40 @@ h1 {
    
 }
 
+
 .center-picture-item{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     gap: 8px;
 }
 
 .picture-item-description{
-    font-size: 8px;
+    font-size: 16px;
    
+}
+
+.quote-section{
+    background-color:#E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 50px;
+}
+
+.quote-author{
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: end;
+   margin-right: 500px;
 }
